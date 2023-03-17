@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css2?family=Sono:wght@400;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: #98DFD6;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  line-height: 20px;
+  font-family: 'Sono', sans-serif;
+}
+
+.box {
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+.img {
+  object-fit: cover;
+} 
+  
+.text {
+    margin-left: 250px;
+    background-color: rgba(83, 97, 197, 0.612);
+    color: white;
+    padding-left: 100px;
+    padding-right: 20px;
+    text-align: justify;
+  }
